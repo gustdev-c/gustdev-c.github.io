@@ -16,15 +16,16 @@ body {
     background-color: rgb(10, 0, 46);
 }
 
-p, h1, h2, ul {
+p, h1, h2, h3, li {
     font-family: 'Poppins';
+    padding-left: 10px;
 }
 
-h1, h2, p {
-    padding-left: 1rem;
+h1, h2, h3 {
+    text-decoration: underline dotted;
 }
 
-ul {
+li {
     font-size: 1.5em;
 }
 
@@ -46,4 +47,16 @@ img {
     height: 200px;
     padding-right: 10px;
     border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:link, a:visited {
+    color: blue;
+}
+
+a:hover{
+    color:orange;
 }
