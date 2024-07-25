@@ -21,10 +21,6 @@ p, h1, h2, h3, li {
     padding-left: 10px;
 }
 
-h1, h2, h3 {
-    text-decoration: underline dotted;
-}
-
 li {
     font-size: 1.5em;
 }
