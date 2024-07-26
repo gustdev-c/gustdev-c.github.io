@@ -8,6 +8,7 @@
     .container {display: contents;}
     p, h1, h2, h3, li {padding-left: 0px; color: white;}
     img {display: none;}
+    li {font-size: 1em;}
 }
 
 * {
@@ -40,7 +41,7 @@ h3 {
 }
 
 li {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .container {
