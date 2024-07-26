@@ -4,7 +4,7 @@
     html {scroll-behavior: auto;}
 }
 
-@media only screen and (max-device-width: 360px) {
+@media only screen and (max-device-width: 430px) {
     .container {display: contents;}
     p, h1, h2, h3, li {padding-left: 0px; color: white;}
     img {display: none;}
